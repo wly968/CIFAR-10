@@ -1,0 +1,29 @@
+# 数据文件（脚本会自动下载）
+data/
+
+# 模型权重
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 日志与缓存
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
